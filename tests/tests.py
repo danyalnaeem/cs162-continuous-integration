@@ -2,6 +2,7 @@ import os
 import requests
 import unittest
 from sqlalchemy import create_engine
+import psycopg2
 
 class DockerComposeTestCase(unittest.TestCase):
     def test_post(self):
